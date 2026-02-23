@@ -1,23 +1,25 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f3f4f6;
+    background-color: #f2f3f7;
     color: #333;
 }
 
+/* 전체 가운데 정렬 */
 .container {
-    width: 900px;
-    margin: 50px auto;
+    width: 950px;
+    margin: 60px auto;
 }
 
+/* 상단 제목 */
 .header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .header h1 {
-    font-size: 32px;
-    margin-bottom: 5px;
+    font-size: 34px;
+    margin-bottom: 6px;
 }
 
 .header p {
@@ -25,72 +27,89 @@ body {
     font-size: 14px;
 }
 
+/* 카드 공통 */
 .card {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 16px;
-    margin-bottom: 25px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
 
-.profile {
+/* 프로필 카드 정렬 */
+.profile-card {
     display: flex;
     align-items: center;
 }
 
-.profile-img {
-    width: 110px;
-    height: 110px;
+/* 🔵 파란 동그라미 프로필 */
+.profile-circle {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #6c63ff, #5a8dee);
+    background: linear-gradient(135deg, #6c63ff, #4f46e5);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
-    margin-right: 30px;
+    margin-right: 40px;
+    box-shadow: 0 10px 25px rgba(79,70,229,0.3);
 }
 
-.profile-info h2 {
+/* 오른쪽 내용 */
+.profile-content h2 {
     margin: 0;
+    font-size: 26px;
 }
 
 .major {
     color: #777;
-    margin-bottom: 15px;
+    margin: 10px 0 18px 0;
 }
 
 .intro {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 1.6;
 }
 
+/* 정보 2열 */
 .info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px 40px;
+    gap: 15px 50px;
 }
 
 .label {
     display: block;
     font-size: 13px;
     color: #888;
+    margin-bottom: 4px;
 }
 
+/* 태그 */
 .tags span {
     display: inline-block;
-    background-color: #e0e7ff;
+    background-color: #e5e9ff;
     color: #4f46e5;
-    padding: 6px 14px;
+    padding: 7px 15px;
     border-radius: 20px;
     font-size: 13px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
+/* 소제목 */
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* 푸터 */
 footer {
     text-align: center;
     font-size: 13px;
     color: #888;
-    margin-top: 30px;
+    margin-top: 40px;
 }
