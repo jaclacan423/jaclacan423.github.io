@@ -3,85 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>임세민 자기소개 홈페이지</title>
-    <link rel="stylesheet" href="style. css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
-        <header class="header">
+
+    <div class="container">
+
+        <header class="main-header">
             <h1>임세민 자기소개</h1>
-            <p class="subtitle">나만의 간단 포트폴리오</p>
+            <p>나만의 간단 포트폴리오</p>
         </header>
 
-        <main class="container">
-                <section class="profile-card">
-                    <div class="profile-left">
-                        <div class="avatar">
-                            <span>HG</span>
-                        </div>
+        <!-- 프로필 카드 -->
+        <section class="card profile-card">
+            <div class="profile-left">
+                <div class="profile-image">HG</div>
+            </div>
+
+            <div class="profile-right">
+                <h2>임세민</h2>
+                <p class="subtitle">ICT융합자율전공 대학생</p>
+                <p class="intro">
+                    안녕하세요, 20살 ICT융합자율전공 임세민입니다.
+                    새로운 기술을 배우는 것을 좋아하고, 프로그래밍 실력을 키우기 위해 꾸준히 공부하고 있습니다.
+                </p>
+
+                <div class="info-grid">
+                    <div>
+                        <span class="label">나이</span>
+                        <span>20살</span>
                     </div>
-                    <div class="profile-right">
-                        <h2>임세민</h2>
-                        <p class="profile-role">ICT융합자율전공 전공 대학생</p>
-                        <p class="profile-summary">
-                            안녕하세요, 20살 ICT융합자율전공 임세민입니다.
-                            저는 새로운 학문을 배우는 것을 좋아하고 프로그래밍을 잘하기 위해 공부하고있습니다.
-                        </p>
-
-                        <div class="info-grid">
-                            <div class="info-item">
-                                <span class="info-label">나이</span>
-                                <span class="info-value">20</span>
-                            </div>
-                                <div class="info-item">
-                            <span class="info-label">전공</span>
-                            <span class="info-value">ICT융합자율전공</span>
-                            </div>
-                            <div class="info-item">
-                            <span class="info-label">취미</span>
-                            <span class="info-value">운동하기</span>
-                            </div>
-                            <div class="info-item">
-                            <span class="info-label">특기</span>
-                            <span class="info-value">문제 해결을 위해 단계적으로 접근하는 분석 역량</span>
-                         </div>
-                     </div>
+                    <div>
+                        <span class="label">전공</span>
+                        <span>ICT융합자율전공</span>
+                    </div>
+                    <div>
+                        <span class="label">취미</span>
+                        <span>운동하기</span>
+                    </div>
+                    <div>
+                        <span class="label">특기</span>
+                        <span>문제 해결을 위해 단계적으로 접근하는 분석 역량</span>
+                    </div>
                 </div>
-           </section>
+            </div>
+        </section>
 
-           <section class="section-card">
+        <!-- About Me -->
+        <section class="card">
             <h3>About Me</h3>
             <p>
                 저는 향후 전자공학을 전공으로 선택하고자 합니다. 그 이유는 전기 회로와 신호의 원리를 배우면서 
                 보이지 않는 전자적 현상이 실제 기기 작동으로 구현되는 과정에 큰 매력을 느꼈기 떄문입니다.
                 앞으로 CMOS 회로 구조, 공정 기술 등에 대해 심화 학습하고 싶습니다.
-                </p>
-            </section>
+            </p>
+        </section>
 
-                <section class="section-card">
-                    <h3>관심 분야</h3>
-                    <ul class="tag-list">
-                        <li class="tag">웹 개발</li>
-                        <li class="tag">물리학 공부</li>
-                        <li class="tag">인공지능 기초</li>
-                    </ul>
-                        </section>
+        <!-- 관심 분야 -->
+        <section class="card">
+            <h3>관심 분야</h3>
+            <div class="tags">
+                <span>웹 개발</span>
+                <span>물리학 공부</span>
+                <span>인공지능 기초</span>
+            </div>
+        </section>
 
-                        <section class="section-card">
-                            <h3>운동과 프로그래밍</h3>
-                            <p>
-                                운동은 저의 스트레스를 해소시켜주는 유일한 취미입니다. 예전부터 꾸준히 운동을 
-                                해왔지만 많이 부족한 저의 모습이 마치 제 프로그래밍 실력인 것 같습니다. 하지만 
-                                꾸준히 공부하여 알고리즘 설계 능력을 강화하고 임베디드 시스템 및 신호 처리 분야와 
-                                연계하여 문제 해결 중심 역량을 갖춘 전자공학도로 성장하고자 합니다.
-                            </p>
-                            </section>
-
-                            <footer class="footer">
+        <!-- 등산과 프로그래밍 -->
+        <section class="card">
+            <h3>운동과 프로그래밍</h3>
+            <p>
+                운동은 저의 스트레스를 해소시켜주는 유일한 취미입니다. 예전부터 꾸준히 운동을 
+                해왔지만 많이 부족한 저의 모습이 마치 제 프로그래밍 실력인 것 같습니다. 하지만 
+                 꾸준히 공부하여 알고리즘 설계 능력을 강화하고 임베디드 시스템 및 신호 처리 분야와 
+                 연계하여 문제 해결 중심 역량을 갖춘 전자공학도로 성장하고자 합니다.
+            </p>
+        </section>
+        <footer class="footer">
                                 <p> 2026 Lim Se Min . Personal Intro Page</p>
                             </footer>
                   </main>
-           </div>
+
+    </div>
+
 </body>
 </html>
-
-
